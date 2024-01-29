@@ -8,36 +8,25 @@
     justify-content: center;
 } */
 
-body .quran-container{
+
+body .quran-vault {
     --metadata-display-reading: none;
 }
 
-.quran-container {
+.quran-vault .quran-container {
     margin: auto;
-    max-width: 900px;
+    /* max-width: 900px; */
     font-family: Amiri;
     font-size: 2rem;
     text-align: center;
-    background-color: #ffe30029;
+/*     background-color: #ffe30029; */
     border-radius: 12px;
     padding: 5px;
     direction: rtl;
 }
 
-.view-header {
-	display: none;
-}
 
-.view-content {
-	height: 100%;
-}
-
-.page-header {
-  display: none;
-}
-
-
-.quran-container .border {
+.quran-vault .quran-container .border {
     width: 70%;
     display: block;
     background: #ffcb00;
@@ -45,7 +34,7 @@ body .quran-container{
     margin: auto;
 }
 
-.quran-container .second-border {
+.quran-vault .quran-container .second-border {
     width: 50%;
     display: block;
     background: #ffa700;
@@ -56,7 +45,7 @@ body .quran-container{
     transform: skew(55deg, 0);
 }
 
-.quran-container .second-border-bottom {
+.quran-vault .quran-container .second-border-bottom {
     width: 50%;
     display: block;
     background: #ffa700;
@@ -67,7 +56,7 @@ body .quran-container{
     transform: skew(-55deg, 0);
 }
 
-.quran-container .name-of-god {
+.quran-vault .quran-container .name-of-god {
     display: flex;
     margin-bottom: auto;
     display: flex;
@@ -79,7 +68,7 @@ body .quran-container{
 }
 
 
-.quran-container .sign {
+.quran-vault .quran-container .sign {
     position: relative;
 }
 

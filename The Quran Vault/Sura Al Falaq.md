@@ -1,6 +1,9 @@
 ---
 cssclasses:
   - quran-container
+tags:
+  - الفلق
+  - falaq
 ---
 
 <div class="quran-container">

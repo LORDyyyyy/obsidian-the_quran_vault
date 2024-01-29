@@ -8,32 +8,21 @@
     justify-content: center;
 } */
 
+
 body .quran-container{
     --metadata-display-reading: none;
 }
 
 .quran-container {
     margin: auto;
-    max-width: 900px;
+/*     max-width: 900px; */
     font-family: Amiri;
     font-size: 2rem;
     text-align: center;
-    background-color: #ffe30029;
+/*     background-color: #ffe30029; */
     border-radius: 12px;
-    padding: 5px;
+/*     padding: 5px; */
     direction: rtl;
-}
-
-.view-header {
-	display: none;
-}
-
-.view-content {
-	height: 100%;
-}
-
-.page-header {
-  display: none;
 }
 
 
