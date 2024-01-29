@@ -12,7 +12,23 @@
 body .quran-vault {
     --metadata-display-reading: none;
 }
-
+.head-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.surah-name-fnt {
+    font-size: 1.84rem;
+    font-family: Amiri;
+    color: #303030;
+}
+.surah-name {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .quran-vault .quran-container {
     margin: auto;
     /* max-width: 900px; */
