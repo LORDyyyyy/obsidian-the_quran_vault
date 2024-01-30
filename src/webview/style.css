@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+.quran-container {
+    margin: auto;
+    font-family: Amiri;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 12px;
+    padding: 5px;
+    direction: rtl;
+}
+
+.quran-container .head-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.quran-container .surah-name-fnt {
+    font-size: 1.84rem;
+    font-family: Amiri;
+    color: #303030;
+}
+
+.quran-container .surah-name {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.quran-container .border {
+    width: 70%;
+    display: block;
+    background: #ffcb00;
+    height: 8px;
+    margin: auto;
+}
+
+.quran-container .second-border {
+    width: 50%;
+    display: block;
+    background: #ffa700;
+    height: 8px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transform: skew(55deg, 0);
+}
+
+.quran-container .second-border-bottom {
+    width: 50%;
+    display: block;
+    background: #ffa700;
+    height: 8px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transform: skew(-55deg, 0);
+}
+
+.quran-container .name-of-god {
+    display: flex;
+    margin-bottom: auto;
+    display: flex;
+    margin-bottom: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.quran-container .quran-content p:nth-child(2) {
+    line-height: 60px;
+}
+
+.quran-container .sign {
+    position: relative;
+}
+
+.quran-container .sign span {
+    color: #9d70df;
+}
