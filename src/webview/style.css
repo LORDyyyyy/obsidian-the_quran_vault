@@ -71,8 +71,8 @@
     gap: 20px;
 }
 
-.quran-container .quran-content p:nth-child(2) {
-    line-height: 60px;
+.quran-container .quran-content p {
+    line-height: 70px;
 }
 
 .quran-container .sign {
