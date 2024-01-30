@@ -26,7 +26,10 @@ def to_hindi_no(number: int) -> str:
 
 def run(pq: object) -> None:
     """
-        the function that will get the surah and the files and folders data.
+        The function that will get the surah and the files and folders data.
+
+        Args:
+            pq (object): a pyquran.quran object
     """
     dest_folder = '../dest/The Quran'
     file_format = 'md'
@@ -43,7 +46,15 @@ def generate_files(pq: object, path: str,
     """
         The function that will generate the Quran in files.
         Each Surah in a separate file.
+
+        Args:
+            pq (object): a pyquran.quran object
+            path (str): the full path contains the saving directory name,
+                        file name, and the file format
+            sura_no (int): the surah number
+            sura_name (str): the surah name
     """
+
     f = open(path, 'w', encoding='utf-8')
     surah = pq.get_sura(sura_no, True, False)
     init_file(f, sura_no, sura_name)
@@ -62,6 +73,12 @@ def init_file(f: TextIO, sura_no: int, sura_name: str) -> None:
     """
         The function that will write the metadata and the first html elements
         of the file
+
+        Args:
+            f (TextIOWrapper): the opened file which
+                                will be written into it the surah
+            sura_no (int): the surah number
+            sura_name (str): the surah name
     """
 
     f.write(
@@ -88,7 +105,10 @@ tags:
 
 def finish_file(f: TextIO) -> None:
     """
-        TODO
+        The function that will write the last lines of the file.
+
+        Args:
+            f (TextIOWrapper): the opened file which
     """
 
     f.write("""
@@ -104,4 +124,3 @@ if __name__ == "__main__":
     """ Main function """
 
     run(pq.quran)
-
