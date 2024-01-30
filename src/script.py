@@ -2,9 +2,9 @@
 import pyquran as pq
 from typing import TextIO
 basmalah = f'<div class="name-of-god"> <p> {pq.quran.get_sura(1, True)[0]} \
-</p></div>'
+</p></div>\n'
 surah_header_image = "https://raw.githubusercontent.com/LORDyyyyy/\
-obsidian-the_quran_vault/main/The%20Quran%20Vault/src/webview/surah_head.png"
+obsidian-the_quran_vault/main/src/webview/surah_head.png"
 
 
 def to_hindi_no(number: int) -> str:
@@ -82,8 +82,7 @@ tags:
 </div>
 </div>
 <div class="quran-content">
-{basmalah if sura_no != 1 else ""}
-<p>
+{basmalah if sura_no != 1 else ""}<p>
 """)
 
 
@@ -105,3 +104,4 @@ if __name__ == "__main__":
     """ Main function """
 
     run(pq.quran)
+
