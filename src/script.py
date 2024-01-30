@@ -109,6 +109,7 @@ def finish_file(f: TextIO) -> None:
 
         Args:
             f (TextIOWrapper): the opened file which
+                                will be written into it the surah
     """
 
     f.write("""
