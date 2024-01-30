@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sura Al Falaq.md",
+                "file": "dest/The Quran/5 - المائدة.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#surah5",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sura Al Falaq.md",
+                "file": "dest/The Quran/5 - المائدة.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sura Al Falaq.md",
+                "file": "dest/The Quran/5 - المائدة.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sura Al Falaq.md"
+                "file": "dest/The Quran/5 - المائدة.md"
               }
             }
           }
@@ -146,9 +147,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cfd4c6d7c19895d3",
+  "active": "9088cb229d896c63",
   "lastOpenFiles": [
+    "src/script.py~",
     "dest/The Quran/114 - الناس.md",
+    "README.md",
+    "src/webview/surah_head.png",
+    "dest/The Quran/1 - الفاتحة.md",
+    "dest/The Quran/2 - البقرة.md",
+    "dest/The Quran/3 - آل عمران.md",
     "dest/The Quran/113 - الفلق.md",
     "dest/The Quran/112 - الإخلاص.md",
     "dest/The Quran/111 - المسد.md",
@@ -169,14 +176,7 @@
     "dest/The Quran/96 - العلق.md",
     "dest/The Quran/95 - التين.md",
     "dest/The Quran/94 - الشرح.md",
-    "dest/The Quran/93 - الضحى.md",
-    "dest/The Quran/92 - الليل.md",
-    "dest/The Quran/91 - الشمس.md",
-    "dest/The Quran/90 - البلد.md",
-    "dest/The Quran/89 - الفجر.md",
-    "src/script.py~",
     "dest/The Quran",
-    "src/webview/surah_head.png",
     "src/webview/style.css",
     "src/webview/index.html",
     "src/webview",

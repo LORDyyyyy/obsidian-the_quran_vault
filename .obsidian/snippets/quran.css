@@ -82,8 +82,8 @@ body .quran-container {
     gap: 20px;
 }
 
-.quran-container .quran-content p:nth-child(2) {
-    line-height: 60px;
+.quran-container .quran-content {
+    line-height: 70px;
 }
 
 .quran-container .sign {

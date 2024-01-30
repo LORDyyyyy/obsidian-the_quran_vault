@@ -70,7 +70,7 @@ cssclasses:
     - quran-container
 tags:
     - {sura_name}
-    - surah#{sura_no}
+    - surah{sura_no}
 ---
 <div class="quran-container">
 <span class="second-border"></span>
